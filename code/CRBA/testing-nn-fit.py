@@ -1,3 +1,10 @@
+'''
+CRBA
+Competitive Rate-Based Algorithm Based on Competitive Spiking Neural Networks
+
+@author: Paolo G. Cachi
+'''
+
 import numpy as np
 
 import tensorflow as tf

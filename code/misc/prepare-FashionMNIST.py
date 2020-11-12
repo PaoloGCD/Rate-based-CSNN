@@ -2,7 +2,7 @@
 Data preprocessing
 Extended from Peter Diehl's implementation https://github.com/peter-u-diehl/stdp-mnist.git
 
-@author: Anonymous et al.
+@author: Paolo G. Cachi
 '''
 
 

@@ -3,7 +3,7 @@ Labeling, simplified Competitive Spiking Neural Network with 400 integrate and f
 input weight normalization, direct inhibition, no resting time
 Built on Peter Diehl's implementation https://github.com/peter-u-diehl/stdp-mnist.git
 
-@author: Anonymous et al.
+@author: Paolo G. Cachi
 '''
 
 

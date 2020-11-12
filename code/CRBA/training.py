@@ -1,8 +1,8 @@
 '''
-Direct CSNN
-Direct implementation of Competitive Spiking Neural Networks
+CRBA
+Competitive Rate-Based Algorithm Based on Competitive Spiking Neural Networks
 
-@author: Anonymous et al.
+@author: Paolo G. Cachi
 '''
 
 import numpy as np
