@@ -1,0 +1,32 @@
+<params>
+    <dataset>
+        <training_x path="../../dataset/MNIST-training-samples.npy"/>
+        <training_y path="../../dataset/MNIST-training-labels.npy"/>
+        <testing_x path="../../dataset/MNIST-testing-samples.npy"/>
+        <testing_y path="../../dataset/MNIST-testing-labels.npy"/>
+        <number_classes>10</number_classes>
+    </dataset>
+    <network>
+        <spiking_neurons>1600</spiking_neurons>
+        <running_time>350</running_time>
+        <alpha_number_spikes>10</alpha_number_spikes>
+        <alpha_weight_update>0.00005</alpha_weight_update>
+        <threshold_0>30</threshold_0>
+        <threshold_offset>-10</threshold_offset>
+        <threshold_update>0.05</threshold_update>
+        <threshold_tau>10000000</threshold_tau>
+        <weight_initialization_blurring>5</weight_initialization_blurring>
+        <weight_total_value>1.0</weight_total_value>
+    </network>
+    <training>
+        <number_epochs>4</number_epochs>
+        <print_step>100000000000</print_step>
+        <save_step>100000000</save_step>
+        <test_step>1000000000</test_step>
+        <validation_step>1000</validation_step>
+    </training>
+    <validation>
+        <validation_samples>10000</validation_samples>
+        <validation_window>50000</validation_window>
+    </validation>
+</params>
